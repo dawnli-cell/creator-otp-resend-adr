@@ -122,3 +122,7 @@ Quick start is above. For a real deployment you'll also need: The details below 
 **Creator OTP Resend Adr: SMS (required for real sending)**
 - **Creator OTP Resend Adr:** Many carriers and regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Creator OTP Resend Adr:** Sandbox or test numbers may work without it; production traffic generally will not.
+
+## Further reading
+
+- [Transactional SMS Alerts: Queued API Beats Inline Service on 3 Scheduled Delivery Rules](docs/transactional-sms-alerts-queued-api-beats-inline-u3tldr.md)
